@@ -1,3 +1,5 @@
+### ! This method is deprecated since Looker 5.16
+
 Installing custom visualizations on Looker is easy, and a lot of pre-made visualisations are already available on this [Github repository](https://github.com/looker/visualization-api-examples). To install any custom visualisations, you'll need to add the viz files to the `plugins/visualizations/` subdirectory under the main `looker` directory. If this directory hasn't been created yet, you can create it with `mkdir -p ~/looker/plugins/visualizations; cd ~/looker/plugins/visualizations;`
 
 Adding any custom visualization from the repository is quite easy, just `wget` the visualization file. However, it's a bit tedious to install multiple charts. The bash script below has them all included already, you just need to specify which charts you want to download.
